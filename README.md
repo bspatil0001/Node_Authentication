@@ -1,11 +1,19 @@
 # Node_Authentication
 
 This is demo node module for authentication.
-  Bcrypt for password hashing
-  Passport for authentication middleware
-  Multer for file upload
-  Mongo DB for storage
-  Mongoose for ORM
+  <ul>
+    <li>Jade for template engine</li>
+    <li>Bcrypt for password hashing</li>
+    <li>Passport for authentication middleware</li>
+    <li>Multer for file upload</li>
+    <li>Mongo DB for storage</li>
+    <li>Mongoose for ORM</li>
+  </ul>
+  
+  
+ 
+  
+  
   
 
 To try
