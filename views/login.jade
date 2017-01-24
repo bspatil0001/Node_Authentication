@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    div
+        h3 Registration
+        p Please register using fallowing form
+        form(method="post", action="/users/login", enctype="mltipart/form-data")
+            .form-group
+                label Email
+                input.form-control(name="email", type="email", placeholder="Enter the email")
+            .form-group
+                label Password
+                input.form-control(name="password", type="password", placeholder="Enter the pasword")
+            .form-group
+                input.btn.btn-primary(name="submit", type="submit", value="Submit")

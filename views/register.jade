@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    div
+        h3 Registration
+        p Please register using fallowing form
+
+        ul.errors
+            if errors
+                each error, i in errors
+                    li.alert.alert-danger #{error.msg}
+        form(method="post", action="/users/register", enctype="multipart/form-data")
+            .form-group
+                label Name
+                input.form-control(name="name", type="text", placeholder="Enter the name")
+            .form-group
+                label Email
+                input.form-control(name="email", type="email", placeholder="Enter the email")
+            .form-group
+                label User Name
+                input.form-control(name="username", type="text", placeholder="Enter username")
+            .form-group
+                label Password
+                input.form-control(name="password", type="password", placeholder="Enter the pasword")
+            .form-group
+                label Confirm Password
+                input.form-control(name="password1", type="password", placeholder="Confirm password")
+            .form-group
+                label Image
+                input.form-control(name="profileImage", type="file")
+            .form-group
+                input.btn.btn-primary(name="submit", type="submit", value="Submit")
+            
