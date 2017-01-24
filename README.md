@@ -16,6 +16,10 @@ This is demo node module for authentication.
   
   
 
-To try
-  npm install
-  npm start
+<p>To try</p>
+  <ul>
+    <ol>npm install</ol>
+    <ol>npm start</ol>
+  </ul>
+  
+  
